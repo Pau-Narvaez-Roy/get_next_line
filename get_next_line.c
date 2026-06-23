@@ -6,7 +6,7 @@
 /*   By: pnarvaez <pnarvaez@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/22 14:38:41 by pnarvaez          #+#    #+#             */
-/*   Updated: 2026/06/23 12:58:58 by pnarvaez         ###   ########.fr       */
+/*   Updated: 2026/06/23 13:02:01 by pnarvaez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,8 @@ static char	*save_line(char **c)
 
 	pos = 0;
 	temp = ft_strdup(*c);
+	if (!temp)
+		return (NULL);
 	while (temp[pos] && temp[pos] != '\n')
 		pos++;
 	if (temp[pos])
