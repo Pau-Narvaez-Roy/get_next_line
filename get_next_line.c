@@ -6,12 +6,11 @@
 /*   By: pnarvaez <pnarvaez@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/22 14:38:41 by pnarvaez          #+#    #+#             */
-/*   Updated: 2026/06/23 12:13:57 by pnarvaez         ###   ########.fr       */
+/*   Updated: 2026/06/23 12:58:58 by pnarvaez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-#include <stdio.h>
 
 static char	*save_line(char **c)
 {
